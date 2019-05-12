@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0; 
+	background-image: url('/bg/box.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.sect{
+	 max-width: 1300px;
+   margin: 0 auto;
+}
+
+.sect .ten , .sect .twelve{
+	background-color: #1688;
+	float: left;
+	clear: both;
+	margin-top: 25px;
+	margin-left: 0px;
+	padding: 5px; 
+	border-radius: 10px;
+}
+
+.sect .ten p, .sect .twelve p, .sect .btech p{
+	font-size: 40px;
+	color: white;
+	border-bottom: 3px solid grey;
+	font-family: 'Sofia', cursive;
+
+}
+
+.sect .ten ul li ,.sect .twelve ul li, .sect .btech ul li{
+	color: white;
+	font-size: 25px;
+	padding-right: 40px;
+	list-style-type: none;
+	font-family:  'Gloria Hallelujah', cursive;
+}
+
+.sect .btech {
+	background-color: #1688;
+	float: left;
+	clear: both;
+	margin-top: 25px;
+	margin-left: 0px;
+	padding: 20px; 
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+
+.next a{
+	float: right;
+	color: white;
+	font-size: 23px;
+	text-decoration: none;
+	clear: both;
+	margin-right: 25px;
+	margin-bottom: 15px;
+	background-color: #1688;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+.next a:hover{
+	color: black;
+	font-size: 24px;
+	transition: 0.7s;
+	background-color: #1689;
+}
+
+#academics{
+  border-bottom: 1.5px solid white;
+}

@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0; 
+	background-image: url('/bg/black.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.sect{
+     max width: 1200px;
+     margin: 0 auto;
+ }
+
+
+ .head{
+    font-family: 'Gloria Hallelujah', cursive;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: grey;
+    font-size: 37px;
+    margin-left: 100px;
+    text-decoration: underline;
+ }
+
+
+.sec{
+	color: grey ;
+	font-size: 32px;
+    font-family: 'Gloria Hallelujah', cursive;
+	margin-left:100px;
+	margin-right: 100px;
+	float: left;
+	margin-top: 20px;
+	background-color: #0007;
+	border-radius:10px; 
+	padding: 23px;
+}
+.next a{
+	float: right;
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+	text-decoration: none;
+    margin-right: 80px;
+    background-color: #0007;
+    border-radius: 4px; 
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.next a:hover{
+	color: grey;
+	font-size: 25px;
+	transition: 0.7s;
+	background-color: #0008;
+}
+
+#about{
+  border-bottom: 1.5px solid white;
+
+}

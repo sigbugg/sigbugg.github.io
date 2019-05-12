@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+    padding: 0;
+	background-image: url('/bg/new.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.sect{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.up{
+	font-size: 34px;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 200px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 2px;
+	font-family:  'Gloria Hallelujah', cursive;
+	border-bottom: 2px solid grey;
+}
+
+.sect .links ul li, .sect .nolinks ul li{
+	padding: 20px;
+	list-style-type: none;
+	margin-left: 150px;
+	margin
+}
+
+.sect .nolinks ul li span, .sect .links ul li span{
+	font-family: 'Concert One', cursive;
+	font-size: 25px;
+	padding: 20px;
+}
+
+#contact{
+  border-bottom: 1.5px solid white;
+}

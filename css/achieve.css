@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0; 
+	background-image: url('/bg/ac1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.sect{
+	 max-width: 1300px;
+   margin: 0 auto;
+}
+
+.head{
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 35px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	margin-top: 25px;
+	border-bottom: 2px solid grey;
+	margin-right: 100px;
+}
+
+
+.acv{
+	font-size: 35px;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+.list li{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 20px;
+}
+
+.last{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 35px;
+	padding-top: 20px;
+}
+
+.next a{
+	float: right;
+	color: white;
+	font-size: 20px;
+	margin-top: 30px;
+	text-decoration: none;
+	background-color: #1455;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.next a:hover{
+	color: black;
+	font-size: 22px;
+	transition: 0.7s;
+	background-color: #1456;
+}
+
+#achieve{
+  border-bottom: 1.5px solid white;
+}
